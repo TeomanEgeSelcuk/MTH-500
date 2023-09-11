@@ -4,8 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: roullete_jupyter_container  # Set a custom container name
-    image: roullete-jupyter-image:latest    # Set a custom image name and tag
+    container_name: mth_500_container  # Set a custom container name
+    image: mth-500-image:latest    # Set a custom image name and tag
     ports:
       - "8888:8888"
     volumes:
